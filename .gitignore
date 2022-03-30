@@ -1,0 +1,8 @@
+node_modules
+regex_tests.txt
+url_test.txt
+urls.html
+suggestions
+ignoreUrl.txt
+git_diff
+package-lock.json

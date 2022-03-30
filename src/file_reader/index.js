@@ -32,6 +32,8 @@ const readFiles = async (fileToExtractUrls, fileToIgnoreUrls = null) => {
     if (validFile !== 0) throw new Error('Invalid Ignore file.');
     listToIgnore = Array.from(new Set(listToIgnore));
 
+    console.log('This example is different!');
+    console.log('The result is displayed in the Command Line Interface'); 
     urlList = urlList.reduce((finalUrls, url) => {
       // eslint-disable-next-line no-param-reassign
       if (protocolRegex.test(url)) url = `https://${url}`;

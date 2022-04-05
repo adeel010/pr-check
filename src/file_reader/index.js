@@ -48,3 +48,7 @@ const readFiles = async (fileToExtractUrls, fileToIgnoreUrls = null) => {
 module.exports = {
   readFiles,
 };
+
+const someFunc = () => {
+  console.log("to say something");
+}

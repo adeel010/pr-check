@@ -11,4 +11,5 @@ jobs:
             - uses: artiomtr/jest-coverage-report-action@v1.3
               with:
                   github-token: ${{ secrets.GITHUB_TOKEN }}
+                  annotations: coverage
                   #   threshold: 80 # optional parameter

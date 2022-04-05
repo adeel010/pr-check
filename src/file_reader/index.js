@@ -55,3 +55,7 @@ const someFunc = () => {
 const thoseFunc = () => {
   console.log("to say something or nothing");
 }
+
+const theseFunc = () => {
+  console.log("to say something or nothing");
+}

@@ -52,3 +52,6 @@ module.exports = {
 const someFunc = () => {
   console.log("to say something");
 }
+const thoseFunc = () => {
+  console.log("to say something or nothing");
+}
